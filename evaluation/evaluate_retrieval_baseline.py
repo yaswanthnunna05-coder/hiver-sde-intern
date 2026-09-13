@@ -174,18 +174,18 @@ print("\n" + "=" * 60)
 print("BASELINE COMPARISON")
 print("=" * 60)
 
-print("Majority baseline accuracy: 48.00%")
+print("Majority baseline accuracy: 48.67%")
 print(f"TF-IDF retrieval accuracy:  {accuracy:.2%}")
-print("V3 classifier accuracy:     60.00%")
+print("V3 classifier accuracy:     61.33%")
 
 print(
     f"\nRetrieval vs majority: "
-    f"{(accuracy - 0.48):+.2%}"
+    f"{(accuracy - 0.4867):+.2%}"
 )
 
 print(
     f"V3 vs retrieval: "
-    f"{(0.60 - accuracy):+.2%}"
+    f"{(0.6133 - accuracy):+.2%}"
 )
 
 

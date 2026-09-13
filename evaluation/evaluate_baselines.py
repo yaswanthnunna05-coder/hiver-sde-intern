@@ -39,8 +39,8 @@ print(y_true.value_counts())
 # Our V3 classifier results
 # --------------------------------------------------
 
-v3_accuracy = 0.60
-v3_macro_f1 = 0.5307
+v3_accuracy = 0.6133
+v3_macro_f1 = 0.5531
 
 print("\n" + "=" * 60)
 print("COMPARISON")
