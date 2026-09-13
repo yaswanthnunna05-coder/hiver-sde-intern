@@ -1,0 +1,21 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# Raw / derived full datasets
+data/twcs.csv
+data/apple_conversations.csv
+data/apple_support.csv
+
+# Trained model
+models/*.pkl
+
+# Failed/incomplete LLM judge output
+evaluation/llm_judge_results.csv
+evaluation/llm_judge_results_40.csv
+evaluation/human_evidence_annotation_cleaned1.csv.xlsx
+
+data/raw/twcs.csv
